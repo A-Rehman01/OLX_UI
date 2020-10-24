@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.ProductContainer{
+    padding: 10px;
+}
+.imagesanddiscription{
+    /* border: 2px solid red; */
+}
+.ImageGallery{
+    border: 1px solid #BDBDBD;
+    /* background-color: black; */
+}
+.TopImage{
+    display: flex;
+    justify-content: center;
+    background-color: black;    
+}
+
+.TopImage img{
+    width: 730px;
+}
+.arrayofimages{
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.arrayofimages img{
+    width: 70px !important;
+    height: 60px;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+}
+.arrayofimages img:hover{
+    border: 3px solid black;
+}
+
+.DiscriptionDetail{
+    margin-top: 3px;
+    margin-left: 2px;
+    border: 1px solid #BDBDBD;
+    padding: 14px;
+}
+.DiscriptionDetail h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.Detail{
+    margin-bottom: 15px;
+}
+.Detail div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Discription{
+    margin-top: 15px;
+}
+.ProductSellerInfo{
+    /* background-color: red; */
+}
+.productinfo{
+    border: 1px solid #BDBDBD;
+    padding: 14px;   
+}
+.productprice{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    font-size: 32px;
+    font-weight: bold;
+}
+.productname{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.sellerinfo{
+    border: 1px solid #BDBDBD;
+    margin-top: 10px;
+    padding: 14px;
+
+}
+.sellereading{
+    font-size: 19px;
+    font-weight: 500;
+}
+.citynameanddate{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(170, 169, 169);
+    font-size: 13px;
+}
+.sellernamejoin{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 8px; */
+    margin-top: 10px;
+    align-items: center;
+}
+.chatseller{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.userContact{
+    padding: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sellnumber{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
