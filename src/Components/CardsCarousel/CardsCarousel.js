@@ -58,6 +58,7 @@ export function CardsCarousel() {
                         data.productlist.map((obj) => {
                             return (
                                 <Cards
+                                    key={obj.id}
                                     obj={obj}
                                 />
                             )

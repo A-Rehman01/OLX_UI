@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import style from './Header.module.css'
 import SearchIcon from '@material-ui/icons/Search';
 import AddIcon from '@material-ui/icons/Add';
+import logo from '../../Assests/logo.svg'
 
 export  function Header() {
 
@@ -24,7 +25,7 @@ export  function Header() {
                 >
                 <Grid item xs={12} sm={3}>
                     <div className={style.Heading}>
-                        <img src='https://raw.githubusercontent.com/BilalMir135/OLX-Replica/0fdb3aa89ba78d22648481c6a777300b0c88cbbb/src/assets/logo.svg?token=AOIREXPJRJOXU4PSLTIMLD27SWGEA' alt='logo' height='50px' />
+                        <img src={logo} alt='logo' height='50px' />
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={9}>

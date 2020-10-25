@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import {Routes,Route} from  'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { productdata, AddItems } from '../../Reducer/ProductSlice';
+import { useDispatch } from 'react-redux';
+import { AddItems } from '../../Reducer/ProductSlice';
 
 import './App.css';
 
@@ -11,13 +11,14 @@ import Home from '../../Pages/Home';
 import Product from '../../Pages/Product';
 
 function App() {
-  const data = useSelector(productdata);
-  console.log(data)
   const dispatch = useDispatch();
 
   useEffect(() => {
+    async function getData(){
     dispatch(AddItems())
-  }, [])
+    }
+    getData();
+  },[dispatch])
 
   return (
     <div className="AppContainer">

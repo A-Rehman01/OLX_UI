@@ -16,10 +16,11 @@ export default function ProductDetail() {
     const { detail } = data
 
     useEffect(() => {
-        dispatch(Detail(productid))
-    },[])
-    console.log(data)
-    console.log(detail)
+        async function getData(){
+            dispatch(Detail(productid))
+        }
+        getData();
+    },[detail]);
 
     if (!data.loading) {
         return (
