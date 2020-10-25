@@ -5,6 +5,7 @@ import style from './Header.module.css'
 import SearchIcon from '@material-ui/icons/Search';
 import AddIcon from '@material-ui/icons/Add';
 import logo from '../../Assests/logo.svg'
+import {Link} from 'react-router-dom';
 
 export  function Header() {
 
@@ -25,7 +26,9 @@ export  function Header() {
                 >
                 <Grid item xs={12} sm={3}>
                     <div className={style.Heading}>
+                        <Link to='/'>
                         <img src={logo} alt='logo' height='50px' />
+                        </Link>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={9}>

@@ -48,7 +48,7 @@ export function Cards() {
                 {
                     data.productlist.map((obj) => {
                         return (
-                            <Grid key={obj.id} item xs={10} sm={3}>
+                            <Grid key={obj.id} item xs={11} sm={3}>
                                 <Link to={`product/${obj.id}`}>
                                     <div className={style.card}>
                                         <div className={style.Uppercard}>
