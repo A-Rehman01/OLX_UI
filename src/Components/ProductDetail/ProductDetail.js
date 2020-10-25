@@ -20,7 +20,7 @@ export default function ProductDetail() {
             dispatch(Detail(productid))
         }
         getData();
-    },[detail]);
+    },[dispatch,productid]);
 
     if (!data.loading) {
         return (

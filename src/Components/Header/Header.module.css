@@ -17,6 +17,7 @@
 .Heading{
     text-align: center;
     /* font-size: 22px; */
+
 }
 .searchicon{
     background-color: white;
@@ -119,7 +120,7 @@
 @media only screen and (max-width: 650px) {
     .HeaderContainer {
       /* background-color: lightblue; */
-      padding: 5px;
+      padding: 5px !important;
     }
     .searchicon,.arrowicon,.Search1 input,.searchicon2,.Search2 input{
         padding: 4px;
@@ -131,7 +132,14 @@
     .LoginSell div{
         padding: 0;
     }
-    .Heading{
-        margin-bottom: 8px;
+    .LoginHeading,.LoginSell{
+        margin-top: 6px !important;
     }
+    .Heading{
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        margin-bottom: 13px !important;
+        height: 33px !important;
+    }
+    
   }
