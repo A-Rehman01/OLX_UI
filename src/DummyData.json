@@ -2,6 +2,8 @@
     {
         "id":"01",
         "Category":"Car",
+        "sellername":"Saima",
+        "sellerjoindate":"Oct 2020",
         "productName": "Nissan Clipper DX Triptronic Transmission Eco Engine",
         "productPrice":"1385000",
         "date":"Today",
@@ -16,15 +18,17 @@
         },
         "discription":"Nissan_Clipper DX {Every} Triptronic Auto+Manual Transmission Japan Model 2015 Fresh Import 2020 Total Genuine Condition ECO Engine With Out Standing Fuel Average 31000km Genuine Mileage Rs=1,385,000",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/f7foun6rurbv3-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/qjb4i0xzzpnd1-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/q9jwud5fiuxb1-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/q9jwud5fiuxb1-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/f7foun6rurbv3-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/qjb4i0xzzpnd1-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/q9jwud5fiuxb1-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/q9jwud5fiuxb1-PK/image;s=1080x1080"]
         }
     },
     {
         "id":"02",
         "Category":"Car",
+        "sellername":"Miss Shixa Khan",
+        "sellerjoindate":"june 2019",
         "productName": "Move Custom RS Turbo (New Shape)",
         "productPrice":"1371292",
         "date":"Oct 4",
@@ -39,15 +43,17 @@
         },
         "discription":"Salaried Person, Business Person, Pension Person and Rental Income can avail this offer.'Suzuki vitara' ya Apni pasand ki koi bhi gaari humse finance kerwayen sirf 20% down payment deker mahana asaan iqsaat key saath. 1 To 7 Years Installment Plan Par.No processing fee No Hidden Charges Bank ki Nisbat asan Sharait. (Without Bank Statement)No Kibor and No Penalties. Free Tracker/Insurance. Minimum Profit Rate From Other Companies & Banks.Mazeed malomat key liye call karen YA office visit karen.Contact: Mr Hassan Banaye Hmare Partner or Haasil karen Har Month 3.5% se le kar 5% Munafa 100% Guaranteed.",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/7112coq5eyjh3-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/8pfs9uz14u82-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/oedwmox7vyko1-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/p9fgbviombog1-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/7112coq5eyjh3-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/8pfs9uz14u82-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/oedwmox7vyko1-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/p9fgbviombog1-PK/image;s=1080x1080"]
         }
     },
     {
         "id":"03",
         "Category":"Mobile",
+        "sellername":"OLX User",
+        "sellerjoindate":"Feb 2020",
         "productName": "Sunsung galaxy s7",
         "productPrice":"14000",
         "date":"Today",
@@ -62,15 +68,17 @@
         },
         "discription":"Only kit pta approved condition 10/10",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/po2wqg3vyyxa-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/oahm7yz7yimc1-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/u2lthmean3re2-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/yv997xqjy4uh1-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/po2wqg3vyyxa-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/oahm7yz7yimc1-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/u2lthmean3re2-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/yv997xqjy4uh1-PK/image;s=1080x1080"]
         }
     },
     {
         "id":"04",
         "Category":"Mobile",
+        "sellername":"Muhamad Abdul Razzak",
+        "sellerjoindate":"Dec 2019",
         "productName": "Sharp Aqous R1 4gb 64gb Non Approved sim working",
         "productPrice":"10500",
         "date":"2 Days ago",
@@ -85,16 +93,18 @@
         },
         "discription":"Sharp Aqous R1 Non Approved 4gb Ram 64gb Memory 5.3 Inch Display 3200 Mah Battery Andriod 9.0 Snapdragon 835 Octa Core Processor Orignal Usa Stock Approved price 16000 Shop address : shop no 212, 2nd floor star city Mall Opposite Bambino Cinema saddar Shop Timing 3pm to 9 pm",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/jdixk74dhzo62-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/t3y9f4ii4f2o1-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/4qxu6b2tsihj3-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/2ov0wdzpcext2-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/jdixk74dhzo62-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/t3y9f4ii4f2o1-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/4qxu6b2tsihj3-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/2ov0wdzpcext2-PK/image;s=1080x1080"]
         }
     },
     
     {
         "id":"05",
         "Category":"laptop",
+        "sellername":"Emad",
+        "sellerjoindate":"Oct 2018",
         "productName": "Hp Elitebook G2 840",
         "productPrice":"58000",
         "date":"Today",
@@ -108,17 +118,19 @@
             "Condition":"Used"
         },
         "discription":"I5 5th Gen 8gb Ram 256ssd Good condition Battery upto 6 hrs Orignal charger",
-        "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/wb0b13aaai7t2-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/1zurzuatg408-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/t3zcxbhqqn8b1-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/5sw3lzwevfut3-PK/image;s=1080x1080"
-        }
+        "images":{     
+            "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/wb0b13aaai7t2-PK/image;s=1080x1080"],
+            "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/1zurzuatg408-PK/image;s=1080x1080"],
+            "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/t3zcxbhqqn8b1-PK/image;s=1080x1080"],
+            "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/5sw3lzwevfut3-PK/image;s=1080x1080"]
+    }
     },
     
     {
         "id":"06",
         "Category":"Laptop",
+        "sellername":"Click & Pick (Dell/HP)",
+        "sellerjoindate":"May 2020",
         "productName": "MSI Gaming laptop",
         "productPrice":"43500",
         "date":"Today",
@@ -133,15 +145,17 @@
         },
         "discription":"",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/gdk3lbft2eh91-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/b6wm2bvam24n1-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/sn4qtublkmzr-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/dsysrzu5uzbj1-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/gdk3lbft2eh91-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/b6wm2bvam24n1-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/sn4qtublkmzr-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/dsysrzu5uzbj1-PK/image;s=1080x1080"]
         }
     },
     {
         "id":"07",
         "Category":"Fast Food Tables",
+        "sellername":"Pakistan",
+        "sellerjoindate":"May 2015",
         "productName": "Fast food equipment",
         "productPrice":"69000",
         "date":"3 Days ago",
@@ -151,20 +165,22 @@
         "address":"",
         "featured":false,
         "Detail":{
-            "Type": "Cooking Range",
+            "type": "Cooking Range",
             "Condition":"Used"
         },
         "discription":"Fryer counter hot plate slander 12 korsiya 2 table 3 cholay Han gas walae ek cash counter ek persal table Han total saman Han fast food ka agr koi bhi saman chiyae alag se tu miljai ga",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/yrbiy5f5zyoq-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/88k7aa1rzhsd-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/zxcstl7zef661-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/vyuji47vzp462-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/yrbiy5f5zyoq-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/88k7aa1rzhsd-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/zxcstl7zef661-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/vyuji47vzp462-PK/image;s=1080x1080"]
         }
     },
     {
         "id":"08",
         "Category":"Women Makeup",
+        "sellername":"Shenaz",
+        "sellerjoindate":"April 2012",
         "productName": "Eyeshadow palette (Imported & 100% Original) with Money Back Guarantee",
         "productPrice":"700",
         "date":"7 Sep",
@@ -174,21 +190,23 @@
         "address":"",
         "featured":true,
         "Detail":{
-            "Type": "Makeup",
+            "type": "Makeup",
             "Condition":"New"
         },
         "discription":"100% original and imported eyeshadow palette. Money back guarantee if found fake or copy. Delivery charges not included. For more pictures please whatsapp.",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/hgvikud2t59y1-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/56vnvaezj0ay1-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/2t41knluvwod-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/idvjs31sy6ae2-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/hgvikud2t59y1-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/56vnvaezj0ay1-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/2t41knluvwod-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/idvjs31sy6ae2-PK/image;s=1080x1080"]
         }
     },
     
     {
         "id":"09",
         "Category":"Leather Sofa",
+        "sellername":" Ali baba Sofa",
+        "sellerjoindate":"Jan 2020",
         "productName": "Imported leather sofa",
         "productPrice":"75000",
         "date":"Todays",
@@ -202,16 +220,18 @@
         },
         "discription":"3+2+1 recliner brown colour just like new..",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/vv5os2rdgasc-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/w4lg3im1wk44-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/4kztmordtwql2-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/vv5os2rdgasc-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/vv5os2rdgasc-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/w4lg3im1wk44-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/4kztmordtwql2-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/vv5os2rdgasc-PK/image;s=1080x1080"]
         }
     },
     
     {
         "id":"10",
         "Category":"Residential Plots",
+        "sellername":"Habib Plaza",
+        "sellerjoindate":"March 2020",
         "productName": "Residential Plots Available for Sale",
         "productPrice":"1000000",
         "date":"Today",
@@ -221,15 +241,15 @@
         "address":"",
         "featured":false,
         "Detail":{
-            "Type": "Residential Plots",
+            "type": "Residential Plots",
             "Condition":"New"
         },
         "discription":"Alpha Builders and Construction Co. Brings Very limited Resedencial plot available for Sale,Intehai Munasib rate.Near Tehsil Sarai Nourang, Main Bannu Double Road se sirf 500 meter k fasle pe.",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/mvdmx2wz0rjg1-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/1v8u94t74mjc-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/1v8u94t74mjc-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/d8hp02y7wpnn-PK/image;s=1080x1080"
+        "imgfrontside":["https://apollo-singapore.akamaized.net/v1/files/mvdmx2wz0rjg1-PK/image;s=1080x1080"],
+        "imgleftside":["https://apollo-singapore.akamaized.net/v1/files/1v8u94t74mjc-PK/image;s=1080x1080"],
+        "imgrightside":["https://apollo-singapore.akamaized.net/v1/files/1v8u94t74mjc-PK/image;s=1080x1080"],
+        "imgbackside":["https://apollo-singapore.akamaized.net/v1/files/d8hp02y7wpnn-PK/image;s=1080x1080"]
         }
     }
 ]

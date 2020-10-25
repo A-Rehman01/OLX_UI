@@ -22,7 +22,7 @@ export const ProductSlice = createSlice({
         Detail: (state, action) => {
             return {
                 ...state,
-                detail: Data.filter((obj)=>(obj.id===action.payload)),
+                detail: Data.find((obj)=>(obj.id===action.payload)),
                 detailLoading:true
             }
         }

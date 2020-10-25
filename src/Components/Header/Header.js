@@ -23,7 +23,9 @@ export  function Header() {
                 alignItems="center"
                 >
                 <Grid item xs={12} sm={3}>
-                    <div className={style.Heading}>oLx</div>
+                    <div className={style.Heading}>
+                        <img src='https://raw.githubusercontent.com/BilalMir135/OLX-Replica/0fdb3aa89ba78d22648481c6a777300b0c88cbbb/src/assets/logo.svg?token=AOIREXPJRJOXU4PSLTIMLD27SWGEA' alt='logo' height='50px' />
+                    </div>
                 </Grid>
                 <Grid item xs={12} sm={9}>
                     <div className={style.Search1}>
