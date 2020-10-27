@@ -37,7 +37,7 @@ export default function ProductDetail() {
                 spacing={1}
             >
                 <Grid item xs={11} sm={8} className={style.imagesanddiscription}>
-                    <ImgGallery/>
+                    <ImgGallery image={detail?.images}/>
                     <div className={style.DiscriptionDetail}>
                         <h3>Detail</h3>
                         <div className={style.Detail}>
