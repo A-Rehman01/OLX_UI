@@ -11,7 +11,6 @@ let LessDetail = (data) => {
     if (data) {
         for (var i = 0; i <= 40; i++) {
             if (data.length === i) {
-                returndata = returndata + '...'
                 return returndata;
             }
             returndata = returndata + data[i]

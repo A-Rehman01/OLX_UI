@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import {ImgGallery} from './Image_Gallery';
 import style from './ProductDetail.module.css';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -16,11 +17,11 @@ export default function ProductDetail() {
     const { detail } = data
 
     useEffect(() => {
-        async function getData(){
+        async function getData() {
             dispatch(Detail(productid))
         }
         getData();
-    },[dispatch,productid]);
+    }, [dispatch, productid]);
 
     if (!data.loading) {
         return (
@@ -36,21 +37,7 @@ export default function ProductDetail() {
                 spacing={1}
             >
                 <Grid item xs={11} sm={8} className={style.imagesanddiscription}>
-                    <div className={style.ImageGallery}>
-                        <div className={style.TopImage}>
-                            <img src={detail?.images?.imgfrontside} alt='Img' />
-                        </div>
-                        <div className={style.arrayofimages}>
-                            {
-                                Object.keys(detail?.images).map((obj, ind) => {
-                                    const temp = detail?.images[obj]
-                                    return (
-                                        <img src={temp} key={ind} alt='images' />
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
+                    <ImgGallery/>
                     <div className={style.DiscriptionDetail}>
                         <h3>Detail</h3>
                         <div className={style.Detail}>
@@ -68,11 +55,26 @@ export default function ProductDetail() {
                                 })
                             }
                         </div>
-                        <hr />
-                        <h3>Description</h3>
-                        <div className={style.Discription}>
-                            <p>{detail?.discription}</p>
-                        </div>
+                        {
+                            detail?.discription ?
+                            <hr />
+                            :
+                                null
+                        }
+                        {
+                            detail?.discription ?
+                                <h3>Description</h3>
+                                :
+                                null
+                        }
+                        {
+                            detail?.discription ?
+                                <div className={style.Discription}>
+                                    <p>{detail?.discription}</p>
+                                </div>
+                                :
+                                null
+                        }
                     </div>
 
                 </Grid>

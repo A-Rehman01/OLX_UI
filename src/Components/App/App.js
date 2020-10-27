@@ -1,5 +1,5 @@
-import React,{useEffect} from 'react';
-import {Routes,Route} from  'react-router-dom';
+import React, { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { AddItems } from '../../Reducer/ProductSlice';
 
@@ -14,11 +14,11 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    async function getData(){
-    dispatch(AddItems())
+    async function getData() {
+      dispatch(AddItems())
     }
     getData();
-  },[dispatch])
+  }, [dispatch])
 
   return (
     <div className="AppContainer">
