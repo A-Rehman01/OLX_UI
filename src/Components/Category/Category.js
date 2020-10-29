@@ -21,7 +21,6 @@ export function Category() {
         setDisplay(false)
         console.log('false')
     }
-    let check=0;
     return (
         <div className={style.CategoryContainer}>
             <div>
