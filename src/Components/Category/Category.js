@@ -3,19 +3,25 @@ import style from './Category.module.css'
 import Grid from '@material-ui/core/Grid';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import { Link } from 'react-router-dom';
+import { OutSideClick } from './OutSideClick';
+import { Categorylist } from './List'
+
 
 
 export function Category() {
     const [display, setDisplay] = useState(false)
     let listofitems = ['Mobiles Phones', 'Cars', 'MotorCycle', 'House', 'TV-Vedio-Audio', 'Tablets', 'Land & Plot']
-    let Vehicles = ['Tractor & Trainer', 'Boats', 'Other Vehicles', 'Rikshaw & Chinchi', 'Buses,Vens and Trucks', 'Spare Parts', 'Cars Accessories', 'Cas on Installment', 'cars'];
-    let Animals = ['Other Animals', 'Pet Food & Accessories', 'Horses', 'LiveStock', 'Dogs', 'Cats', 'Hens & Assesl', 'Birds', 'Fishes'];
-    let Fashion = ['Other Fashion', 'Couture', 'Loans and Pets', 'Wedding', 'Swiching', 'Skin and HAir', 'Makeup', 'Jewellery', 'Footware', 'Cloths', 'Accessories']
 
     let showlist = () => {
-        setDisplay(!display)
+        setDisplay(true)
+        console.log('true')
     }
-
+    let hidelist = () => {
+        setDisplay(false)
+        console.log('false')
+    }
+    let check=0;
     return (
         <div className={style.CategoryContainer}>
             <div>
@@ -28,15 +34,16 @@ export function Category() {
                     <Grid item xs={12} sm={2}>
                         <div className={style.CategoryHeading}>
                             <p>All Categories</p>
-                            <p onClick={() => {
-                                showlist()
-                            }}>
-                                {display ?
-                                    <ExpandLessIcon />
-                                    :
-                                    <ExpandMoreIcon />
-                                }
-                            </p>
+                            {display ?
+                                <p onClick={hidelist}>
+                                    <ExpandMoreIcon className={style.expandlessicon} />
+                                </p>
+                                :
+
+                                <p onClick={showlist}>
+                                    <ExpandLessIcon className={style.expandmoreicon} />
+                                </p>
+                            }
                         </div>
                     </Grid>
                     <Grid item xs={8} sm={10}>
@@ -44,57 +51,19 @@ export function Category() {
                             {
                                 listofitems.map((obj, ind) => {
                                     return (
-                                        <div key={ind} className={style.items}>
+                                        <Link to={`/${obj}`} key={ind} className={style.items}>
                                             {obj}
-                                        </div>
+                                        </Link>
                                     )
                                 })
                             }
                         </div>
                     </Grid>
                 </Grid>
-                <div className={display ? `${style.show}` : `${style.hide}`}>
-                    <div>
-                        <div className={style.dropdownheading}>Vehicles</div>
-                        {
-                            Vehicles.map((obj, ind) => {
-                                return (
-                                    <div className={style.dropdownitems} key={ind}>{obj}</div>
-                                )
-                            })
-                        }
-                    </div>
-                    <div>
-                        <div className={style.dropdownheading}>Animals</div>
-                        {
-                            Animals.map((obj, ind) => {
-                                return (
-                                    <div className={style.dropdownitems} key={ind}>{obj}</div>
-                                )
-                            })
-                        }
-                    </div>
-                    <div>
-                        <div className={style.dropdownheading}>Fashion And Beauty</div>
-                        {
-                            Fashion.map((obj, ind) => {
-                                return (
-                                    <div className={style.dropdownitems} key={ind}>{obj}</div>
-                                )
-                            })
-                        }
-                    </div>
-                    <div>
-                        <div className={style.dropdownheading}>Animals</div>
-                        {
-                            Animals.map((obj, ind) => {
-                                return (
-                                    <div className={style.dropdownitems} key={ind}>{obj}</div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
+
+                <OutSideClick setDisplay={setDisplay} display={display}>
+                    <Categorylist display={display} />
+                </OutSideClick>
             </div>
 
         </div>

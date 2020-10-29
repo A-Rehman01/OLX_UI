@@ -1,7 +1,12 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
-.AppContainer{
+/* .AppContainer{
 
-}
+} */
+
+
+
+
+/* Image Gallery Customize */
 .image-gallery-thumbnails .image-gallery-thumbnails-container{
     text-align: left !important;
 }
@@ -38,3 +43,4 @@ background-color: black !important;
     padding: 0 !important;
 }
 }
+/* Image Gallery Customize ======= End */
