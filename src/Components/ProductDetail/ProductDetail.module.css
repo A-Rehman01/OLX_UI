@@ -6,7 +6,14 @@
 .ProductContainer{
     padding: 10px;
 }
-
+.upperadd{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.upperadd img{
+    width: 100%;
+}
 .DiscriptionDetail{
     margin-top: 3px;
     margin-left: 2px;

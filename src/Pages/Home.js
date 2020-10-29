@@ -1,19 +1,20 @@
 import React from 'react';
 
-
 //Components
 import { Cards } from '../Components/Cards/Cards';
 import { CardsCarousel } from '../Components/CardsCarousel/CardsCarousel';
 import { Category } from '../Components/Category/Category';
+import { UpperAdd } from '../Components/UpperAdd'
 
-export default function Pages (){
+export default function Pages() {
 
-    return(
+    return (
 
         <div>
             <Category />
-            <CardsCarousel/>
-            <Cards/>
+            <UpperAdd />
+            <CardsCarousel />
+            <Cards />
         </div>
 
     )
