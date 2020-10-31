@@ -52,7 +52,7 @@ export const Search = ({display, setdisplay}) => {
             <div>
                 <div className={display ? style.Searchfocus : style.Search1}>
                     <SearchIcon className={display ? style.searchiconfocus : style.searchicon} />
-                    <input type='text' defaultValue={areaName} placeholder='Search city, area or local' />
+                    <input type='text' value={areaName} readOnly placeholder='Search city, area or local' />
                     <div>
                         {
                             display ?
