@@ -68,10 +68,10 @@
         },
         "discription":"Only kit pta approved condition 10/10",
         "images":{
-        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/po2wqg3vyyxa-PK/image;s=1080x1080",
-        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/oahm7yz7yimc1-PK/image;s=1080x1080",
-        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/u2lthmean3re2-PK/image;s=1080x1080",
-        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/yv997xqjy4uh1-PK/image;s=1080x1080"
+        "imgfrontside":"https://apollo-singapore.akamaized.net/v1/files/wlpsi4crhfkl1-PK/image;s=1080x1080",
+        "imgleftside":"https://apollo-singapore.akamaized.net/v1/files/0g1kzkoty59q-PK/image;s=1080x1080",
+        "imgrightside":"https://apollo-singapore.akamaized.net/v1/files/6hxlk89k6oit3-PK/image;s=1080x1080",
+        "imgbackside":"https://apollo-singapore.akamaized.net/v1/files/khgmph75gdqm2-PK/image;s=1080x1080"
         }
     },
     {
@@ -102,7 +102,7 @@
     
     {
         "id":"05",
-        "Category":"laptop",
+        "Category":"Laptop",
         "sellername":"Emad",
         "sellerjoindate":"Oct 2018",
         "productName": "Hp Elitebook G2 840",

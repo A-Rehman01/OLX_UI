@@ -1,14 +1,16 @@
-import React from 'react';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import React,{useState} from 'react';
 import Grid from '@material-ui/core/Grid';
 import style from './Header.module.css'
 import SearchIcon from '@material-ui/icons/Search';
 import AddIcon from '@material-ui/icons/Add';
 import logo from '../../Assests/logo.svg'
 import {Link} from 'react-router-dom';
+import { Search } from './Search';
+import  {OutSideClick} from './OutsideClick';
 
 export  function Header() {
-
+    const [display, setdisplay] = useState(false)
+  
     return (
         <div className={style.HeaderContainer}>
             <Grid 
@@ -32,11 +34,9 @@ export  function Header() {
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={9}>
-                    <div className={style.Search1}>
-                        <SearchIcon className={style.searchicon}/>
-                        <input type='text' placeholder='Search city, area or local'/>
-                        <ExpandMoreIcon  className={style.arrowicon}/>
-                    </div>
+                    <OutSideClick  setDisplay={setdisplay}>
+                    <Search display={display} setdisplay={setdisplay}/>
+                    </OutSideClick>
                 </Grid>
                 </Grid>
                 

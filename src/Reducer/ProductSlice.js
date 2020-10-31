@@ -8,7 +8,9 @@ export const ProductSlice = createSlice({
         items: [],
         isloading: false,
         detail: [],
-        detailLoading:false,
+        detailLoading: false,
+        Rproduct: [],
+        RproductLoading: false,
     },
 
     reducers: {
@@ -22,14 +24,23 @@ export const ProductSlice = createSlice({
         Detail: (state, action) => {
             return {
                 ...state,
-                detail: Data.find((obj)=>(obj.id===action.payload)),
-                detailLoading:true
+                detail: Data.find((obj) => (obj.id === action.payload)),
+                detailLoading: true
+            }
+        },
+        SimilarProduct: (state, action) => {
+            return {
+                ...state,
+                Rproduct: Data.filter((obj) => (
+                    obj.Category === action.payload.productCategory && obj.id !== action.payload.productid
+                )),
+                RproductLoading: true
             }
         }
     },
 })
 
-export const { AddItems,Detail } = ProductSlice.actions;
+export const { AddItems, Detail, SimilarProduct } = ProductSlice.actions;
 
 export const productdata = (state) => {
     return ({
@@ -42,6 +53,13 @@ export const detailpro = (state) => {
     return ({
         detail: state.productlist.detail,
         loading: state.productlist.detailLoading
+    })
+}
+
+export const similarpro = (state) => {
+    return ({
+        product: state.productlist.Rproduct,
+        loading: state.productlist.RproductLoading
     })
 }
 

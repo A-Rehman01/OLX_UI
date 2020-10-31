@@ -10,6 +10,7 @@ import CallOutlinedIcon from '@material-ui/icons/CallOutlined';
 import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import img from '../../Assests/CategoryUpperdd.png'
+import { RelatedProduct } from './RelatedProduct';
 
 export default function ProductDetail() {
     const { productid } = useParams();
@@ -139,6 +140,9 @@ export default function ProductDetail() {
                     </div>
                 </Grid>
             </Grid>
+            <div style={{padding:'7px'}}>
+            <RelatedProduct productCategory={detail?.Category} productid={productid} />
+            </div>            
         </div>
 
     )

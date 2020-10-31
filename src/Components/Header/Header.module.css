@@ -26,17 +26,63 @@
     border-bottom: 2px solid black;
     padding: 9px;
 }
-.arrowicon{
+.searchiconfocus{
     background-color: white;
+    border-left: 2px solid #A3E4D7;
+    border-top: 2px solid #A3E4D7;
+    border-bottom: 2px solid #A3E4D7;
+    padding: 9px;
+}
+@keyframes rotatepos {
+    from { transform: rotateZ(0deg); }
+    to   { transform: rotateZ(180deg); }
+ }
+ @keyframes rotateneg {
+    from { transform: rotateZ(0deg); }
+    to   { transform: rotateZ(-180deg); }
+ }
+ .Search1 div{
     border-right: 2px solid black;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    padding: 9px;
+    background-color: white;
+    padding: 7px !important;
+ }
+ .Searchfocus div{
+    border-right: 2px solid #A3E4D7;
+    border-top: 2px solid #A3E4D7;
+    border-bottom: 2px solid #A3E4D7;
+    background-color: white;
+    padding: 7px !important;    
+}
+.arrowdown{
+    animation-name: rotateneg;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+.arrowup{
+    animation-name: rotatepos;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
 }
 .Search1{
     text-align: center;
     display: flex;
     justify-content: center;
+}
+.Searchfocus{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.Searchfocus input{
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #A3E4D7;
+    border-bottom: 2px solid #A3E4D7;
+    width: 100%;
+    padding: 9px;
+    height: 24px !important;
 }
 .Search1 input{
     border-left: none;
@@ -45,15 +91,19 @@
     border-bottom: 2px solid black;
     width: 100%;
     padding: 9px;
+    height: 24px !important;
+}
+.Searchfocus input:focus{
+    outline: none;
 }
 .Search1 input:focus{
     outline: none;
 }
+
 .Search2{
     text-align: center;
     display: flex;
     justify-content: center;
-    
 }
 .Search2 input{
     border-left: 2px solid black;
@@ -117,6 +167,70 @@
     flex-wrap: wrap-reverse !important;
 }
 
+.dropdown{
+    width: 325px;
+    position: absolute;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 1px 5px #E6E6E6;
+    border: 1px solid #E6E6E6;
+    overflow-y: auto;
+}
+
+.mylocation{
+    display: flex;
+    justify-content: center;
+    padding: 10px 25px;
+    }
+.mylocation p{
+    margin: 0 10px;
+    font-size: 16px;
+    color: blue;
+}
+.mylocation:hover{
+    background-color: #A3E4D7;
+}
+.poplocationheading,.recentlocationheading{
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.poplocation,.Recentlocation{
+    display: flex;
+    align-items: center;
+}
+
+.poplocContainer li{
+    cursor: pointer;
+    padding: 10px 25px;
+}
+.RecentlocContainer li{
+    cursor: pointer;
+    padding: 10px 25px !important;
+}
+
+.poplocContainer li:hover{
+    background-color: #A3E4D7 !important;
+}
+.RecentlocContainer li:hover{
+    background-color: #A3E4D7 !important;
+}
+.poplocation p{
+    margin: 0 10px;
+    color: gray;
+    font-size: 14px;
+}
+.Recentlocation p{
+    margin: 0 10px;
+    color: gray;
+    font-size: 14px;
+}
+.poplocation,.Recentlocation span{
+    color: gray !important;
+}
 
 @media only screen and (max-width: 650px) {
     .HeaderContainer {
@@ -141,6 +255,15 @@
         padding-top: 0 !important;
         margin-bottom: 13px !important;
         height: 33px !important;
+    }
+    .Search1 div{
+        padding: 2px !important;
+    }
+    .arrowup{
+        margin-top: 5px !important;
+    }
+    .Searchfocus div{
+        padding: 2px !important;
     }
     
   }

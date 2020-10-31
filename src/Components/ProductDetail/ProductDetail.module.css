@@ -137,6 +137,13 @@
     font-size: 13.5px;
     margin-bottom: 10px;
 }
+
+/* Relaed Product */
+.RelatedProduct{
+ border: 1px solid #BDBDBD;
+}
+/* Relaed Product */
+
 @media only screen and (max-width: 740px) {
     .ProductContainer{
         padding: 0px !important;

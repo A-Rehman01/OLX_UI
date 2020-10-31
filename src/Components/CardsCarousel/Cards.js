@@ -26,7 +26,7 @@ export default function Cards({ obj }) {
     console.log(obj)
 
     return (
-        <Link to={`product/${obj.id}`}>
+        <Link to={`/product/${obj.id}`}>
         <div className={style.card}>
             <div className={style.Uppercard}>
                 {
